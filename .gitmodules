@@ -1,0 +1,21 @@
+[submodule "bundle/gundo.vim"]
+	path = bundle/gundo.vim
+	url = http://github.com/sjl/gundo.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-actionscript"]
+	path = bundle/vim-actionscript
+	url = https://github.com/jeroenbourgois/vim-actionscript.git
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "bundle/vim-bufferline"]
+	path = bundle/vim-bufferline
+	url = https://github.com/bling/vim-bufferline
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
