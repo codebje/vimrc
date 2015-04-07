@@ -25,8 +25,12 @@ set wildmenu
 
 " Configure variables before plugins load
 let g:airline_theme='wombat'
+
 let g:syntastic_haskell_checkers=['hlint', 'hdevtools']
-" let g:syntastic_haskell_hdevtools_args='-g -ilib -g -Wall'
+let g:syntastic_c_checkers = ['make', 'gcc']
+let g:syntastic_java_checkers = ['checkstyle']
+let g:syntastic_javascript_checkers = ['jshint']
+
 let mapleader=","
 let maplocalleader=","
 
