@@ -19,3 +19,6 @@
 [submodule "bundle/vim-hdevtools"]
 	path = bundle/vim-hdevtools
 	url = https://github.com/bitc/vim-hdevtools.git
+[submodule "bundle/vim-gradle"]
+	path = bundle/vim-gradle
+	url = git@github.com:tfnico/vim-gradle.git
