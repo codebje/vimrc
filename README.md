@@ -21,3 +21,4 @@ vim-hdevtools   | Haskell tools for vim, stuff like dynamic type checking
 vim-pathogen    | the manager for all of these modules
 vim-puppet      | syntax highlighting for puppet files
 vim-scala       | I basically just use this for scala syntax highlighting
+java-8-syntax   | Fix for java 8 lambda syntax highlighting
