@@ -1,5 +1,7 @@
 My VIM setup.
 
+![License: BSD3](https://img.shields.io/github/license/codebje/vimrc.svg)
+
 This is on github so I can synchronise between hosts easily, plus of course version control goodness.
 
 I symlink vimrc to ~/.vimrc, so everything remains contained inside the git repository.  Only global
