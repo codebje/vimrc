@@ -22,6 +22,7 @@ set laststatus=2
 set background=dark             " I use a black background terminal
 set nohlsearch                  " highlighting of searches is evil
 set wildmenu
+set relativenumber
 
 " Configure variables before plugins load
 let g:airline_theme='wombat'
