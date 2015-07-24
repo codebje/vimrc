@@ -42,3 +42,6 @@ execute pathogen#infect()
 
 syntax on
 filetype plugin on
+
+let &colorcolumn="80"
+highlight ColorColumn ctermbg=234
