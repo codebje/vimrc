@@ -43,3 +43,9 @@
 [submodule "bundle/html5.vim"]
 	path = bundle/html5.vim
 	url = git@github.com:othree/html5.vim.git
+[submodule "bundle/neco-ghc"]
+	path = bundle/neco-ghc
+	url = git@github.com:eagletmt/neco-ghc.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git@github.com:ervandew/supertab.git

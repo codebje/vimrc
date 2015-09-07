@@ -13,3 +13,7 @@ function! FindCabalSandboxRootPackageConf()
 endfunction
 
 let g:syntastic_haskell_hdevtools_args = '-g-ilib -g-isrc -g-i. -g-idist/build/autogen -g-Wall -g-package-conf='.FindCabalSandboxRootPackageConf()
+
+setlocal omnifunc=necoghc#omnifunc
+let g:SuperTabDefaultCompletionType="<c-x><c-o>"
+setlocal completeopt=longest,menuone
