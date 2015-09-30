@@ -49,4 +49,6 @@ syntax on
 filetype plugin on
 
 let &colorcolumn="80"
-highlight ColorColumn ctermbg=234
+colorscheme xoria256 " oceanblack256 jellybeans, wombat256, xoria256
+highlight ColorColumn ctermbg=235
+highlight SpellBad ctermfg=217 ctermbg=0
