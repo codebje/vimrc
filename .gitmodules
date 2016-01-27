@@ -61,3 +61,6 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/vim-ledger"]
+	path = bundle/vim-ledger
+	url = git@github.com:ledger/vim-ledger.git
