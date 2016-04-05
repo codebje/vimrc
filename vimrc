@@ -24,7 +24,15 @@ set nohlsearch                  " highlighting of searches is evil
 set wildmenu
 set relativenumber
 
-" Configure variables before plugins load
+" Set up vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'rust-lang/rust.vim'
+call vundle#end()
+
+" Theme for airline
 let g:airline_theme='wombat'
 
 " Syntastic checker settings
@@ -41,12 +49,12 @@ let g:pandoc#modules#disabled = ["folding"]
 let mapleader=","
 let maplocalleader=","
 
-" Load Pathogen for magic loading of everything else
+" Load Pathogen for magic loading of (almost) everything else
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
 syntax on
-filetype plugin on
+filetype plugin indent on
 
 let &colorcolumn="80"
 colorscheme xoria256 " oceanblack256 jellybeans, wombat256, xoria256
