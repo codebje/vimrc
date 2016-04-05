@@ -46,9 +46,6 @@
 [submodule "bundle/neco-ghc"]
 	path = bundle/neco-ghc
 	url = git@github.com:eagletmt/neco-ghc.git
-[submodule "bundle/supertab"]
-	path = bundle/supertab
-	url = git@github.com:ervandew/supertab.git
 [submodule "bundle/vim-pandoc"]
 	path = bundle/vim-pandoc
 	url = git@github.com:vim-pandoc/vim-pandoc.git
@@ -64,3 +61,9 @@
 [submodule "bundle/purescript-vim"]
 	path = bundle/purescript-vim
 	url = https://github.com/raichoo/purescript-vim
+[submodule "bundle/vim-ledger"]
+	path = bundle/vim-ledger
+	url = git@github.com:ledger/vim-ledger.git
+[submodule "bundle/vim-gnupg"]
+	path = bundle/vim-gnupg
+	url = git@github.com:jamessan/vim-gnupg.git
