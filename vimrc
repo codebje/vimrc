@@ -31,7 +31,7 @@ let g:airline_theme='wombat'
 let g:syntastic_haskell_checkers=['hlint', 'hdevtools']
 let g:syntastic_c_checkers = ['make', 'gcc']
 let g:syntastic_java_checkers = ['checkstyle']
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint', 'jshint']
 let g:syntastic_html_tidy_exec = 'tidy5'
 
 " Pandoc editing settings

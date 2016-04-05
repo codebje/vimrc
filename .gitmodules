@@ -61,3 +61,6 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/purescript-vim"]
+	path = bundle/purescript-vim
+	url = https://github.com/raichoo/purescript-vim
