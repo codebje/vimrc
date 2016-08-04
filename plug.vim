@@ -17,22 +17,25 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'kien/rainbow_parentheses.vim'
-" Plug 'flazz/vim-colorschemes'
+Plug 'flazz/vim-colorschemes'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'jamessan/vim-gnupg'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/neocomplete.vim'
+Plug 'vimwiki/vimwiki'
+
 " Haskell tools
-Plug 'eagletmt/ghcmod-vim'            " GHC integration
-Plug 'eagletmt/neco-ghc'              " Completions using ghcmod
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'eagletmt/ghcmod-vim', { 'for': 'haskell' }
+Plug 'eagletmt/neco-ghc', { 'for': 'haskell' }
 
 " Misc. languages
-Plug 'rust-lang/rust.vim'
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 
 " HTML/web
 Plug 'othree/html5.vim'
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-pandoc', { 'for': 'markdown' }
+Plug 'vim-pandoc/vim-pandoc-syntax' , { 'for': 'markdown' }
 
 " Potential
 " Plug 'mattn/emmet-vim'              " HTML/CSS editor snippets

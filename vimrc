@@ -42,10 +42,20 @@ let g:syntastic_c_checkers = ['make', 'gcc']
 let g:syntastic_java_checkers = ['checkstyle']
 let g:syntastic_javascript_checkers = ['eslint', 'jshint']
 let g:syntastic_html_tidy_exec = 'tidy5'
+let g:syntastic_check_on_wq = 0
+
+" Haskell editing
+map <silent> tw :GhcModTypeInsert<CR>
+map <silent> ts :GhcModSplitFunCase<CR>
+map <silent> tq :GhcModType<CR>
+map <silent> te :GhcModTypeClear<CR>
 
 " Pandoc editing settings
 let g:pandoc#formatting#mode="haA"
 let g:pandoc#modules#disabled = ["folding"]
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/'}]
 
 let mapleader=","
 let maplocalleader=","
