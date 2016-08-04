@@ -53,6 +53,7 @@ map <silent> te :GhcModTypeClear<CR>
 " Pandoc editing settings
 let g:pandoc#formatting#mode="haA"
 let g:pandoc#modules#disabled = ["folding"]
+let g:pandoc#syntax#conceal#use = 0
 
 " vimwiki
 let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki/'}]
