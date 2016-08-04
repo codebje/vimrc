@@ -11,15 +11,15 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'bling/vim-airline'
 Plug 'bling/vim-bufferline'
-Plug 'scrooloose/syntastic.git'
+Plug 'scrooloose/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-Plug 'tpope/vim-fugitive.git'
-Plug 'airblade/vim-gitgutter.git'
-Plug 'kien/rainbow_parentheses.vim.git'
-Plug 'flazz/vim-colorschemes.git'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'kien/rainbow_parentheses.vim'
+" Plug 'flazz/vim-colorschemes'
 Plug 'NLKNguyen/papercolor-theme'
-Plug 'jamessan/vim-gnupg.git'
+Plug 'jamessan/vim-gnupg'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Shougo/neocomplete.vim'
 " Haskell tools
@@ -30,9 +30,9 @@ Plug 'eagletmt/neco-ghc'              " Completions using ghcmod
 Plug 'rust-lang/rust.vim'
 
 " HTML/web
-Plug 'othree/html5.vim.git'
-Plug 'vim-pandoc/vim-pandoc.git'
-Plug 'vim-pandoc/vim-pandoc-syntax.git'
+Plug 'othree/html5.vim'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 
 " Potential
 " Plug 'mattn/emmet-vim'              " HTML/CSS editor snippets
@@ -41,9 +41,9 @@ Plug 'vim-pandoc/vim-pandoc-syntax.git'
 " Plug 'sjl/gundo'                    " Graphical undo
 " Plug 'tikhomirov/vim-glsl'
 " Plug 'raichoo/purescript-vim'
-" Plug 'ledger/vim-ledger.git'
+" Plug 'ledger/vim-ledger'
 
 " Retired
 " Plug 'tpope/vim-pathogen'
 " Plug 'VundleVim/Vundle.vim'
-call plug()
+call plug#end()

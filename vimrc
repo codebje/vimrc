@@ -22,13 +22,19 @@ set listchars=tab:▷⋅,trail:⋅,nbsp:⋅,extends:⤳,precedes:⬿
 
 " Display settings
 set laststatus=2
-set background=dark             " I use a black background terminal
+"set background=dark             " I use a black background terminal
+set background=light
 set nohlsearch                  " highlighting of searches is evil
 set wildmenu
 set relativenumber
 
+colorscheme PaperColor
+let &colorcolumn="120"
+highlight ColorColumn ctermbg=235
+highlight SpellBad ctermfg=217 ctermbg=0
+
 " Theme for airline
-let g:airline_theme='wombat'
+let g:airline_theme='PaperColor'
 
 " Syntastic checker settings
 let g:syntastic_haskell_checkers=['hlint', 'hdevtools']
@@ -44,15 +50,5 @@ let g:pandoc#modules#disabled = ["folding"]
 let mapleader=","
 let maplocalleader=","
 
-" Load Pathogen for magic loading of (almost) everything else
-" runtime bundle/vim-pathogen/autoload/pathogen.vim
-" execute pathogen#infect()
-" (migration to vundle in progress)
-
 syntax on
 filetype plugin indent on
-
-let &colorcolumn="80"
-colorscheme xoria256 " oceanblack256 jellybeans, wombat256, xoria256
-highlight ColorColumn ctermbg=235
-highlight SpellBad ctermfg=217 ctermbg=0
