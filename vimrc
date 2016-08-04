@@ -1,4 +1,7 @@
 set nocompatible                " in case system vimrc is screwy
+
+source $HOME/.vim/plug.vim
+
 set nobackup                    " turn off backup files
 set incsearch                   " match incrementally as search goes
 set wrapmargin=0                " default is no-wrap
@@ -24,14 +27,6 @@ set nohlsearch                  " highlighting of searches is evil
 set wildmenu
 set relativenumber
 
-" Set up vundle
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'rust-lang/rust.vim'
-call vundle#end()
-
 " Theme for airline
 let g:airline_theme='wombat'
 
@@ -50,8 +45,9 @@ let mapleader=","
 let maplocalleader=","
 
 " Load Pathogen for magic loading of (almost) everything else
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+" runtime bundle/vim-pathogen/autoload/pathogen.vim
+" execute pathogen#infect()
+" (migration to vundle in progress)
 
 syntax on
 filetype plugin indent on
