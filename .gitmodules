@@ -58,12 +58,17 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
+[submodule "bundle/purescript-vim"]
+	path = bundle/purescript-vim
+	url = https://github.com/raichoo/purescript-vim
 [submodule "bundle/vim-ledger"]
 	path = bundle/vim-ledger
 	url = git@github.com:ledger/vim-ledger.git
 [submodule "bundle/vim-gnupg"]
 	path = bundle/vim-gnupg
 	url = git@github.com:jamessan/vim-gnupg.git
-[submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "bundle/Vundle.vim"]
+	path = bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
