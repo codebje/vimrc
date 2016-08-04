@@ -28,6 +28,7 @@ set nohlsearch                  " highlighting of searches is evil
 set wildmenu
 set relativenumber
 
+set t_Co=256
 colorscheme PaperColor
 let &colorcolumn="120"
 highlight ColorColumn ctermbg=235
